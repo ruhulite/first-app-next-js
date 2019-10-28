@@ -1,12 +1,14 @@
 import Header from '../component/header';
 
-export default function About() {
+const About = () => {
     return(
         <div>	
             <Header />	
             <main>
-            <p>This is About page.</p>
+                <p>This is About page.</p>
             </main>
         </div>
     );
 }
+
+export default About;

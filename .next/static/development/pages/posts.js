@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\about.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\posts.js"],{
 
 /***/ "./component/header.js":
 /*!*****************************!*\
@@ -81,6 +81,7 @@ var Header = function Header() {
     },
     __self: this
   }, __jsx("a", {
+    style: linkStyle,
     title: "Home page",
     __source: {
       fileName: _jsxFileName,
@@ -4546,21 +4547,21 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=E%3A%5CgitHub%5Cfirst-app-next-js%5Cpages%5Cabout.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts&absolutePagePath=E%3A%5CgitHub%5Cfirst-app-next-js%5Cpages%5Cposts.js!./":
 /*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=E%3A%5CgitHub%5Cfirst-app-next-js%5Cpages%5Cabout.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts&absolutePagePath=E%3A%5CgitHub%5Cfirst-app-next-js%5Cpages%5Cposts.js ***!
   \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/about", function() {
-      var mod = __webpack_require__(/*! ./pages/about.js */ "./pages/about.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/posts", function() {
+      var mod = __webpack_require__(/*! ./pages/posts.js */ "./pages/posts.js")
       if(true) {
-        module.hot.accept(/*! ./pages/about.js */ "./pages/about.js", function() {
-          if(!next.router.components["/about"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/about.js */ "./pages/about.js")
-          next.router.update("/about", updatedPage)
+        module.hot.accept(/*! ./pages/posts.js */ "./pages/posts.js", function() {
+          if(!next.router.components["/posts"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/posts.js */ "./pages/posts.js")
+          next.router.update("/posts", updatedPage)
         })
       }
       return mod
@@ -10083,61 +10084,66 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/about.js":
+/***/ "./pages/posts.js":
 /*!************************!*\
-  !*** ./pages/about.js ***!
+  !*** ./pages/posts.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return About; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _component_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../component/header */ "./component/header.js");
-var _jsxFileName = "E:\\gitHub\\first-app-next-js\\pages\\about.js";
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _component_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../component/header */ "./component/header.js");
+var _jsxFileName = "E:\\gitHub\\first-app-next-js\\pages\\posts.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-function About() {
+
+
+var Posts = function Posts() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, __jsx(_component_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, __jsx(_component_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }), __jsx("main", {
+  }), __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, __jsx("p", {
+  }, next_router__WEBPACK_IMPORTED_MODULE_1___default.a.query.title), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, "This is About page.")));
-}
+  }, "Posts page."));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Posts);
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!**************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=E%3A%5CgitHub%5Cfirst-app-next-js%5Cpages%5Cabout.js ***!
+  !*** multi next-client-pages-loader?page=%2Fposts&absolutePagePath=E%3A%5CgitHub%5Cfirst-app-next-js%5Cpages%5Cposts.js ***!
   \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=E%3A%5CgitHub%5Cfirst-app-next-js%5Cpages%5Cabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=E%3A%5CgitHub%5Cfirst-app-next-js%5Cpages%5Cabout.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fposts&absolutePagePath=E%3A%5CgitHub%5Cfirst-app-next-js%5Cpages%5Cposts.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts&absolutePagePath=E%3A%5CgitHub%5Cfirst-app-next-js%5Cpages%5Cposts.js!./");
 
 
 /***/ }),
@@ -10153,5 +10159,5 @@ module.exports = dll_ea92a4d9664833a26066;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=about.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=posts.js.map

@@ -13,7 +13,7 @@ const Header = () => (
             <ul>
                 <li>
                     <Link href="/">
-                        <a title="Home page">Home</a>
+                        <a style={linkStyle} title="Home page">Home</a>
                     </Link>
                 </li>
                 <li>
