@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Invariant\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bootstrap
+
+PATH: 
+  C:\Users\Invariant\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Invariant\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\Invariant\AppData\Local\Microsoft\WindowsApps;C:\Users\Invariant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Invariant\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\gitHub\first-app-next-js\node_modules\node-sass\vendor\win32-x64-64\binding.node'
+
+npm manifest: 
+  {
+    "name": "first-app-next-js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ruhulite/first-app-next-js.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ruhulite/first-app-next-js/issues"
+    },
+    "homepage": "https://github.com/ruhulite/first-app-next-js#readme",
+    "dependencies": {
+      "@zeit/next-sass": "^1.0.1",
+      "next": "^9.1.1",
+      "node-sass": "^4.13.0",
+      "react": "^16.11.0",
+      "react-dom": "^16.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

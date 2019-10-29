@@ -93,6 +93,111 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./assets/css/style.scss":
+/*!*******************************!*\
+  !*** ./assets/css/style.scss ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./component/footer.js":
+/*!*****************************!*\
+  !*** ./component/footer.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "E:\\gitHub\\first-app-next-js\\component\\footer.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Footer = () => __jsx("section", {
+  className: "site-footer",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 2
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "container",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, "Footer Column 1")), __jsx("div", {
+  className: "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, "Footer Column 2")), __jsx("div", {
+  className: "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, "Footer Column 3")), __jsx("div", {
+  className: "col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, "Copyright\xA9 2018-2019. All rights reserved.")))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
 /***/ "./component/header.js":
 /*!*****************************!*\
   !*** ./component/header.js ***!
@@ -122,54 +227,75 @@ const Header = () => __jsx("header", {
   },
   __self: undefined
 }, __jsx("div", {
-  className: "logo",
+  className: "container",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
   },
   __self: undefined
+}, __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 logo",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
 }, __jsx("h1", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, __jsx("a", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, "Logo")))), __jsx("nav", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, __jsx("a", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, "Logo")))), __jsx("div", {
+  className: "col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("nav", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
 }, __jsx("ul", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 16
   },
   __self: undefined
 }, __jsx("li", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 17
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 18
   },
   __self: undefined
 }, __jsx("a", {
@@ -177,32 +303,75 @@ const Header = () => __jsx("header", {
   title: "Home page",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 19
   },
   __self: undefined
 }, "Home"))), __jsx("li", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 22
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/about",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("a", {
   title: "About us",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 24
   },
   __self: undefined
-}, "About us"))))));
+}, "About us")))))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./component/layout.js":
+/*!*****************************!*\
+  !*** ./component/layout.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ "./component/header.js");
+/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer */ "./component/footer.js");
+var _jsxFileName = "E:\\gitHub\\first-app-next-js\\component\\layout.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const Layout = props => __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx(_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}), props.children, __jsx(_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Layout);
 
 /***/ }),
 
@@ -1907,83 +2076,82 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _component_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../component/header */ "./component/header.js");
+/* harmony import */ var _assets_css_style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/css/style.scss */ "./assets/css/style.scss");
+/* harmony import */ var _assets_css_style_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_css_style_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _component_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../component/layout */ "./component/layout.js");
 var _jsxFileName = "E:\\gitHub\\first-app-next-js\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+ //import Header from '../component/header';
+//import Footer from '../component/footer';
 
 
 
 const PostLinks = props => __jsx("li", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 8
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: `/posts?title=${props.title}`,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 9
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 10
   },
   __self: undefined
 }, props.title)));
 
-const Index = () => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13
-  },
-  __self: undefined
-}, __jsx(_component_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 14
-  },
-  __self: undefined
-}), __jsx("main", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, __jsx("h2", {
+const Index = () => __jsx(_component_layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 16
   },
   __self: undefined
-}, "Hello buddy!"), __jsx("ul", {
+}, __jsx("main", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 17
+  },
+  __self: undefined
+}, __jsx("h2", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, "Hello buddy! Next JS"), __jsx("ul", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
   },
   __self: undefined
 }, __jsx(PostLinks, {
   title: "Hello Next.js",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 20
   },
   __self: undefined
 }), __jsx(PostLinks, {
   title: "Learn Next.js is awesome",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 21
   },
   __self: undefined
 }), __jsx(PostLinks, {
   title: "Deploy apps with Zeit",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 22
   },
   __self: undefined
 }))));

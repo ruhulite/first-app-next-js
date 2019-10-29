@@ -1,12 +1,13 @@
 import Router from 'next/router';
-import Header from '../component/header';
+import Layout from '../component/layout';
 
 const Posts = () => (
-    <div>
-        <Header />
-        <h3>{Router.query.title}</h3>
-        <p>Posts page.</p>
-    </div>
+    <Layout>
+		<main>
+            <h3>{Router.query.title}</h3>
+            <p>Posts page.</p>
+		</main>
+	</Layout>
 );
 
 export default Posts;

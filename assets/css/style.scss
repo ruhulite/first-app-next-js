@@ -1,0 +1,32 @@
+//@import 'responsive';
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/grid";
+
+$primay-font: 14px;
+$primay-color: #333333;
+$primay-line-height: 1.3;
+$primary-f-family: Helvetica, sans-serif;
+$primary-background: #ffffff;
+
+@mixin transform ($property) {
+    transform: $property;
+    -webkit-transform: $property;
+    -moz-transform: $property;
+}
+
+%box-model {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    background-color: $primary-background;
+}
+
+body {
+    font-size: $primay-font;
+    color: $primay-color;
+    line-height: $primay-line-height;
+    font-family: $primary-f-family;
+}

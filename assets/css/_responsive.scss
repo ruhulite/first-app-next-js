@@ -1,0 +1,8 @@
+$layout-breakpoint-small: 960px;
+
+@media (min-width: $layout-breakpoint-small) {
+  .body {
+    font-size: 30px;
+    color: red;
+  }
+}
